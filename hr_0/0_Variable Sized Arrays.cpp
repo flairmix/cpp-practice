@@ -30,6 +30,7 @@ int main() {
     // cout << a.size() << endl;
     // cout << a.at(0).at(0) << endl;
     // cout<< a.at(0) << endl;
+    //
 
     for (auto i=0; i < 10; ++i){
         cout << "vector 0 " << a.at(0).at(i) << " ";
