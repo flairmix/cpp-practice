@@ -16,12 +16,12 @@ int main() {
     vector<vector<int>> a (n);
 
     for (auto index=0; index < n; ++index){
-        int n_insert; 
-        cin >> n_insert;
-
+        int n_insert = 5; 
+        // cin >> n_insert;
+        
         for (auto i=0; i < n_insert; ++i){
-            int temp;
-            cin >> temp;
+            int temp = 1;
+            // cin >> temp;
             a.at(index).push_back(temp);
         }
     }
@@ -29,8 +29,8 @@ int main() {
 
     // cout << a.size() << endl;
     // cout << a.at(0).at(0) << endl;
-    // cout<< a.at(0) << endl;
-    //
+    // // cout<< a.at(0) << endl;
+    // //
 
     cout << a.at(0).size() << endl;
     cout << a.at(1).size() << endl;
