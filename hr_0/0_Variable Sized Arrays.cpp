@@ -8,17 +8,17 @@ using namespace std;
 
 int main() {
     // number of arrays elements 
-    int n;
+    int n = 2;
     // number of queries 
     int q;
 
-    cin >> n >> q;
+    // cin >> n >> q;
     vector<vector<int>> a (n);
 
-    for (auto index=0;  index < n; ++index){
+    for (auto index=0; index < n; ++index){
         int n_insert; 
-        // vector<int> temp;
         cin >> n_insert;
+
         for (auto i=0; i < n_insert; ++i){
             int temp;
             cin >> temp;
@@ -31,6 +31,9 @@ int main() {
     // cout << a.at(0).at(0) << endl;
     // cout<< a.at(0) << endl;
     //
+
+    cout << a.at(0).size() << endl;
+    cout << a.at(1).size() << endl;
 
     for (auto i=0; i < 10; ++i){
         cout << "vector 0 " << a.at(0).at(i) << " ";
