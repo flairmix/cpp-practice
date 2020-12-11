@@ -27,8 +27,16 @@ int main() {
     }
     // a.insert(0,);
 
-    cout << a.size() << endl;
+    // cout << a.size() << endl;
+    // cout << a.at(0).at(0) << endl;
     // cout<< a.at(0) << endl;
+
+    for (auto i=0; i < 10; ++i){
+        cout << "vector 0 " << a.at(0).at(i) << " ";
+    }
+    for (auto i=0; i < 10; ++i){
+        cout << "vector 1 " << a.at(1).at(i) << " ";
+    }
 
 
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
